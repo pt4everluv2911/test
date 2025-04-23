@@ -1,34 +1,19 @@
-<?xml version="1.0"?>
-<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" validUntil="2025-04-25T10:51:03Z" cacheDuration="PT1746010263S" entityID="https://idp.example.it">
-  <md:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
-    <md:KeyDescriptor use="signing">
-      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
-        <ds:X509Data>
-          <ds:X509Certificate>MIIDdTCCAl2gAwIBAgIEb0G/9TANBgkqhkiG9w0BAQsFADBvMQswCQYDVQQGEwJJVDELMAkGA1UECAwCTkExEDAOBgNVBAcMB1JvbWU6MUEwCQYDVQQKDAJJVDEPMA0GA1UECwwGU1BfVGVhbTEgMB4GA1UEAwwXc3AuZXhhbXBsZS5pdCAtIFNTTCBDZXJ0MB4XDTI1MDQyMzA5MDAwMFoXDTI2MDQyMzA5MDAwMFowbzELMAkGA1UEBhMCSVQxCzAJBgNVBAgMAk5BMRAwDgYDVQQHDAdSb21lOjFBMQkGA1UECgwCSVQxDzANBgNVBAsMBlNQX1RlYW0xIDAeBgNVBAMMF3NwLmV4YW1wbGUuaXQgLSBTU0wgQ2VydDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKXaYj5X8vGLghGgUOGq2oZgkNz2qp3nWcRhNH+YV7Kyo+O3i3hAG8vwr0gYQqkxTu3Z5XGuHhcqRnTOrGeTPJjV2KaSgkQScMCX1HxB+TLNvOETf0sXgXcgRO8sUu9c1dONURyqPkb9bb3a0QCS2uqZ0bDFFedcIb0Q9gf+uY3pLLjGbdb+YIvjMfXNJ2aM2Z7IXaItmkUZ7wB9e5oy3VpIQ12WB4JDcfOl6b2yA6ONjUVj6rRZH8RfjJqHKCkCg9Z+fOBuFB+/ZPzXyzVgZyXj9VoNlsyXE2ujZCdoVnFNTFOabEAmBQx9yb92K0fWDr4H2BfnGRAeVRNskg6JpW/ThMg3HTkCAwEAAaNTMFEwHQYDVR0OBBYEFDcfclEZ94Qk9C8At4k3N4hjRbimMB8GA1UdIwQYMBaAFDcfclEZ94Qk9C8At4k3N4hjRbimMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACT1QyN2mjFAoLM6Z3bQSnUIXgVKrNJDQ81QetDghwRZ0LxXbs7K9tzwn+UIxFHH5dU2Z6k/YOXAbzZWeTjfz1eNeFNU2uVmhKxU0ixYPpQqDNOXNSJK7BtMLvLdwGpUAvQKra9KwKZMTc2ek7Nh23T7SRKRSqozfEuF8I1W0cOd8EpHi+xIEOpRu6sQ+/C2tkOQ7sLbqvWr6gUdRMwU/jdwrOJZxPrj1QnP4OpkZsv8aOjQZnOPUpOQm7LuHFf3ihLG9E9vnlPtLSDA0lmFqfWRypkTuS6zNnhd9qYFpjP+xE+FIPwJh0VsyDZg8v4iZu8PL5xom7iN6QYI9OkF5JJ+a8A=</ds:X509Certificate>
-        </ds:X509Data>
-      </ds:KeyInfo>
-    </md:KeyDescriptor>
-    <md:KeyDescriptor use="encryption">
-      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
-        <ds:X509Data>
-          <ds:X509Certificate>MIIDdTCCAl2gAwIBAgIEb0G/9TANBgkqhkiG9w0BAQsFADBvMQswCQYDVQQGEwJJVDELMAkGA1UECAwCTkExEDAOBgNVBAcMB1JvbWU6MUEwCQYDVQQKDAJJVDEPMA0GA1UECwwGU1BfVGVhbTEgMB4GA1UEAwwXc3AuZXhhbXBsZS5pdCAtIFNTTCBDZXJ0MB4XDTI1MDQyMzA5MDAwMFoXDTI2MDQyMzA5MDAwMFowbzELMAkGA1UEBhMCSVQxCzAJBgNVBAgMAk5BMRAwDgYDVQQHDAdSb21lOjFBMQkGA1UECgwCSVQxDzANBgNVBAsMBlNQX1RlYW0xIDAeBgNVBAMMF3NwLmV4YW1wbGUuaXQgLSBTU0wgQ2VydDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKXaYj5X8vGLghGgUOGq2oZgkNz2qp3nWcRhNH+YV7Kyo+O3i3hAG8vwr0gYQqkxTu3Z5XGuHhcqRnTOrGeTPJjV2KaSgkQScMCX1HxB+TLNvOETf0sXgXcgRO8sUu9c1dONURyqPkb9bb3a0QCS2uqZ0bDFFedcIb0Q9gf+uY3pLLjGbdb+YIvjMfXNJ2aM2Z7IXaItmkUZ7wB9e5oy3VpIQ12WB4JDcfOl6b2yA6ONjUVj6rRZH8RfjJqHKCkCg9Z+fOBuFB+/ZPzXyzVgZyXj9VoNlsyXE2ujZCdoVnFNTFOabEAmBQx9yb92K0fWDr4H2BfnGRAeVRNskg6JpW/ThMg3HTkCAwEAAaNTMFEwHQYDVR0OBBYEFDcfclEZ94Qk9C8At4k3N4hjRbimMB8GA1UdIwQYMBaAFDcfclEZ94Qk9C8At4k3N4hjRbimMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACT1QyN2mjFAoLM6Z3bQSnUIXgVKrNJDQ81QetDghwRZ0LxXbs7K9tzwn+UIxFHH5dU2Z6k/YOXAbzZWeTjfz1eNeFNU2uVmhKxU0ixYPpQqDNOXNSJK7BtMLvLdwGpUAvQKra9KwKZMTc2ek7Nh23T7SRKRSqozfEuF8I1W0cOd8EpHi+xIEOpRu6sQ+/C2tkOQ7sLbqvWr6gUdRMwU/jdwrOJZxPrj1QnP4OpkZsv8aOjQZnOPUpOQm7LuHFf3ihLG9E9vnlPtLSDA0lmFqfWRypkTuS6zNnhd9qYFpjP+xE+FIPwJh0VsyDZg8v4iZu8PL5xom7iN6QYI9OkF5JJ+a8A=</ds:X509Certificate>
-        </ds:X509Data>
-      </ds:KeyInfo>
-    </md:KeyDescriptor>
-    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
-    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.example.it/sso/redirect"/>
-  </md:IDPSSODescriptor>
-  <md:Organization>
-    <md:OrganizationName xml:lang="en-US">organization</md:OrganizationName>
-    <md:OrganizationDisplayName xml:lang="en-US">My organization display name</md:OrganizationDisplayName>
-    <md:OrganizationURL xml:lang="en-US">https://my.organization.url</md:OrganizationURL>
-  </md:Organization>
-  <md:ContactPerson contactType="technical">
-    <md:GivenName>IT helpdesk</md:GivenName>
-    <md:EmailAddress>ithelpdesk@gmail.com</md:EmailAddress>
-  </md:ContactPerson>
-  <md:ContactPerson contactType="support">
-    <md:GivenName>sp</md:GivenName>
-    <md:EmailAddress>sp@gmail.com</md:EmailAddress>
-  </md:ContactPerson>
-</md:EntityDescriptor>
+<?xml version="1.0" encoding="UTF-8" ?>
+ <root>
+     <entity_id>SERVICE_PROVIDER_REGIONE_xxx</entity_id>
+     <file_name>r_xx.xml.20201214</file_name>
+     <file_hash>07fd4a5822ceea4b46fa08e681a0b66d3deb56a25bc58693c23</file_hash>
+     <code>/spid-registry-api/saml/r_xx.xml.2020</code>
+     <aggregator_code></aggregator_code>
+     <organization_name>Regione Xxxx</organization_name>
+     <organization_display_name>Regione Xxxx</organization_display_name>
+     <organization_type>PA</organization_type>
+     <federation_type>SP</federation_type>
+     <eidas_ready>N</eidas_ready>
+     <create_date>2021-12-20 12:51:40</create_date>
+     <lastupdate_date>2021-12-20 12:51:40</lastupdate_date>
+     <delete_date></delete_date>
+     <_deleted>N</_deleted>
+     <_disabled>N</_disabled>
+     <registry_link>https://registry.spid.gov.it/entities/SERVICE_PROVIDER_REGIONE_Xxxx</registry_link>
+ </root>
