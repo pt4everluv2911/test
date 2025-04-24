@@ -1,97 +1,102 @@
 <md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
-    xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:fpa="https://spid.gov.it/invoicing-extensions"
-    entityID="http://spid.identityprovider.it"
-    ID="_2ini49248n98dn984n">
-    
-   <dsig:Signature xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
-<dsig:SignedInfo>
-<dsig:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
-<dsig:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
-<dsig:Reference URI="#ID_96df8fefe151aa7c6a697834e8cc4621">
-<dsig:Transforms>
-<dsig:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
-<dsig:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
-</dsig:Transforms>
-<dsig:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-<dsig:DigestValue>5/186l/TmQXa2iezNYA2T3K029zADd90frnGoJiXCss=</dsig:DigestValue>
-</dsig:Reference>
-</dsig:SignedInfo>
-<dsig:SignatureValue>jCz5IwnfEK59YbIrqiCQrtfSFiJxFvDzRzwNMsSAj4laJKsDLIw5/gY8KC2Ut4MYicKMzN+1Nt4bsKhpefn532ahg80UYHrJJ+HMoyG+SlA7xLFzaf34Jeb4ka84BmGz5P+++QPyPyLnqaEhSA5Qw+ILhSguPwPTMBYQzkhVqHrkK3vfHmrDR1T20ieHB/+HdH5kFaKx0yNCQH84uJYs4x+r8+k0+kEgBEpS5QOKXo25SIJQJyAeU55CKdl55t7DmnxM/Wfkwdd5Vc3TnYgKVqzU35bXoQIMm4jVAwbkBRi2elSbJJh8Uwf5Q5j+WNE2/jRyXDj64AIC4kbUAEWGwg==</dsig:SignatureValue>
-<dsig:KeyInfo>
-<dsig:KeyValue>
-<dsig:RSAKeyValue>
-<dsig:Modulus>3C5AomuqNwfMgu64jpLStCg/s0qodgeMzHxj5nwque+L+Z36twozFgfprG2l8AISgexXNAe9qY/u9/h/doBRnoD+1XE5nXc7NKr0VHAZwU5b/N5sOWardojwJgR54zWfG1BrsWXAZNvKHmIzkUHldL3bjvTnDG9nqsjmfCKdmMlhcRun3iaxNZFAWaM+rU7TaAkmYrQNsyR3MYk0+7TQ2Wf8e8/8HXmu49dUA1/PaJ+GyYgIBI+1kIlhi15ZU8gXA8yH4tVaEMTiLu283gTOsG5PrrTTJv0WvdGSX7CnNxcL9aYaeEpd+0INFbl5Dk1oBOOiORfTwuPfyvb5hQNbTQ==</dsig:Modulus>
-<dsig:Exponent>AQAB</dsig:Exponent>
-</dsig:RSAKeyValue>
-</dsig:KeyValue>
-</dsig:KeyInfo>
-</dsig:Signature>
-<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
-<md:KeyDescriptor use="signing">
-<ds:KeyInfo>
-<ds:KeyName>6-5OBf38_c8kPyQ88YqgiXHNglFXssXYVJ1MA8SP4jc</ds:KeyName>
-<ds:X509Data>
-<ds:X509Certificate>MIIClzCCAX8CBgGWZs3pVjANBgkqhkiG9w0BAQsFADAPMQ0wCwYDVQQDDARzcGlkMB4XDTI1MDQyNDA3NTYzMloXDTM1MDQyNDA3NTgxMlowDzENMAsGA1UEAwwEc3BpZDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANwuQKJrqjcHzILuuI6S0rQoP7NKqHYHjMx8Y+Z8Krnvi/md+rcKMxYH6axtpfACEoHsVzQHvamP7vf4f3aAUZ6A/tVxOZ13OzSq9FRwGcFOW/zebDlmq3aI8CYEeeM1nxtQa7FlwGTbyh5iM5FB5XS924705wxvZ6rI5nwinZjJYXEbp94msTWRQFmjPq1O02gJJmK0DbMkdzGJNPu00Nln/HvP/B15ruPXVANfz2ifhsmICASPtZCJYYteWVPIFwPMh+LVWhDE4i7tvN4EzrBuT6600yb9Fr3Rkl+wpzcXC/WmGnhKXftCDRW5eQ5NaATjojkX08Lj38r2+YUDW00CAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAGNIXHcZ7r+12rQf/Rpg8n70r0WuLdl4G4XBsnXcY1ilV/yedPydp9/C+vArruyfzoOYUCbXTgWMYlVFe1RGnCoptrH2aajrnDki7zhaZWOlTbD5j+uG+n1vW7KTWDYkW5SNonzFSfDuHiPA2mx4VHPdH6nhmgw2y3ISnhpMRduP/aplf5x0ULZbYybJ7zg1ScMM8BFZDmTyjdLQwsBARRGgZT1WmWbmTfPffnlI4luCk5yFa+kwxJoKRW6BJEv2yz+3oPmEnpaUqgiwe5Y3JTiJEZ2iK+qAkPxxrJeTdoU/Rz1iNMrscBvir7nN0kfpwrPMqj2/b52KbZBZrJV1cvA==</ds:X509Certificate>
-</ds:X509Data>
-</ds:KeyInfo>
-</md:KeyDescriptor>
-<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://keycloak.localtest.me:8443/auth/realms/spid/broker/demo/endpoint"/>
-<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
-<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://keycloak.localtest.me:8443/auth/realms/spid/broker/demo/endpoint" index="0" isDefault="true"/>
-<md:AttributeConsumingService index="1" isDefault="true">
-<md:ServiceName xml:lang="en">Unfiedpost IAM Service</md:ServiceName>
-<md:ServiceName xml:lang="it">Unfiedpost IAM Service</md:ServiceName>
-<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-</md:AttributeConsumingService>
-</md:SPSSODescriptor>
-<md:Organization>
-<md:OrganizationName xml:lang="en">Unfiedpost Group</md:OrganizationName>
-<md:OrganizationName xml:lang="it">Unfiedpost</md:OrganizationName>
-<md:OrganizationDisplayName xml:lang="en">Unfiedpost Group</md:OrganizationDisplayName>
-<md:OrganizationDisplayName xml:lang="it">My organization display name</md:OrganizationDisplayName>
-<md:OrganizationURL xml:lang="en">https://my.organization.url</md:OrganizationURL>
-<md:OrganizationURL xml:lang="it">https://my.organization.url</md:OrganizationURL>
-</md:Organization>
-<md:ContactPerson contactType="other">
-<md:Extensions>
-<spid:VATNumber xmlns:spid="https://spid.gov.it/saml-extensions">IT08567210961</spid:VATNumber>
-<spid:FiscalCode xmlns:spid="https://spid.gov.it/saml-extensions">08567210961</spid:FiscalCode>
-<spid:Private xmlns:spid="https://spid.gov.it/saml-extensions"/>
-</md:Extensions>
-<md:Company>Digithera srl</md:Company>
-<md:EmailAddress>info@digithera.it</md:EmailAddress>
-<md:TelephoneNumber>+39256568224</md:TelephoneNumber>
-</md:ContactPerson>
-<md:ContactPerson contactType="billing">
-<md:Extensions>
-<fpa:CessionarioCommittente xmlns:fpa="https://spid.gov.it/invoicing-extensions">
-<fpa:DatiAnagrafici>
-<fpa:IdFiscaleIVA>
-<fpa:IdPaese>IT</fpa:IdPaese>
-<fpa:IdCodice>08567210961</fpa:IdCodice>
-</fpa:IdFiscaleIVA>
-<fpa:Anagrafica>
-<fpa:Denominazione>Digithera srl</fpa:Denominazione>
-</fpa:Anagrafica>
-</fpa:DatiAnagrafici>
-<fpa:Sede>
-<fpa:Indirizzo>Via Paleocapa</fpa:Indirizzo>
-<fpa:NumeroCivico>1</fpa:NumeroCivico>
-<fpa:CAP>20121</fpa:CAP>
-<fpa:Comune>Milano</fpa:Comune>
-<fpa:Provincia>MI</fpa:Provincia>
-<fpa:Nazione>it</fpa:Nazione>
-</fpa:Sede>
-</fpa:CessionarioCommittente>
-</md:Extensions>
-<md:Company>Digithera srl</md:Company>
-<md:EmailAddress>info@digithera.it</md:EmailAddress>
-<md:TelephoneNumber>+39256568224</md:TelephoneNumber>
-</md:ContactPerson>
+                     xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:fpa="https://spid.gov.it/invoicing-extensions"
+                     xmlns:spid="https://spid.gov.it/saml-extensions"
+                     xmlns:dsig="http://www.w3.org/2000/09/xmldsig#"
+                     entityID="http://spid.identityprovider.it"
+                     ID="_2ini49248n98dn984n">
+
+    <dsig:Signature>
+        <dsig:SignedInfo>
+            <dsig:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <dsig:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <dsig:Reference URI="#ID_96df8fefe151aa7c6a697834e8cc4621">
+                <dsig:Transforms>
+                    <dsig:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <dsig:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                </dsig:Transforms>
+                <dsig:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <dsig:DigestValue>5/186l/TmQXa2iezNYA2T3K029zADd90frnGoJiXCss=</dsig:DigestValue>
+            </dsig:Reference>
+        </dsig:SignedInfo>
+        <dsig:SignatureValue>...</dsig:SignatureValue>
+        <dsig:KeyInfo>
+            <dsig:KeyValue>
+                <dsig:RSAKeyValue>
+                    <dsig:Modulus>...</dsig:Modulus>
+                    <dsig:Exponent>AQAB</dsig:Exponent>
+                </dsig:RSAKeyValue>
+            </dsig:KeyValue>
+        </dsig:KeyInfo>
+    </dsig:Signature>
+
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true"
+                        protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <dsig:KeyInfo>
+                <dsig:KeyName>6-5OBf38_c8kPyQ88YqgiXHNglFXssXYVJ1MA8SP4jc</dsig:KeyName>
+                <dsig:X509Data>
+                    <dsig:X509Certificate>...</dsig:X509Certificate>
+                </dsig:X509Data>
+            </dsig:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+                                Location="https://keycloak.localtest.me:8443/auth/realms/spid/broker/demo/endpoint"/>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+                                      Location="https://keycloak.localtest.me:8443/auth/realms/spid/broker/demo/endpoint"
+                                      index="0" isDefault="true"/>
+        <md:AttributeConsumingService index="1" isDefault="true">
+            <md:ServiceName xml:lang="en">Unifiedpost IAM Service</md:ServiceName>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+
+    <md:Organization>
+        <md:OrganizationName xml:lang="en">Unifiedpost Group</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="en">Unifiedpost Group</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="en">https://my.organization.url</md:OrganizationURL>
+    </md:Organization>
+
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:VATNumber>IT08567210961</spid:VATNumber>
+            <spid:FiscalCode>08567210961</spid:FiscalCode>
+        </md:Extensions>
+        <md:Company>Digithera srl</md:Company>
+        <md:EmailAddress>info@digithera.it</md:EmailAddress>
+        <md:TelephoneNumber>+39256568224</md:TelephoneNumber>
+    </md:ContactPerson>
+
+    <md:ContactPerson contactType="billing">
+        <md:Extensions>
+            <fpa:CessionarioCommittente>
+                <fpa:DatiAnagrafici>
+                    <fpa:IdFiscaleIVA>
+                        <fpa:IdPaese>IT</fpa:IdPaese>
+                        <fpa:IdCodice>08567210961</fpa:IdCodice>
+                    </fpa:IdFiscaleIVA>
+                    <fpa:Anagrafica>
+                        <fpa:Denominazione>Digithera srl</fpa:Denominazione>
+                    </fpa:Anagrafica>
+                </fpa:DatiAnagrafici>
+                <fpa:Sede>
+                    <fpa:Indirizzo>Via Paleocapa</fpa:Indirizzo>
+                    <fpa:NumeroCivico>1</fpa:NumeroCivico>
+                    <fpa:CAP>20121</fpa:CAP>
+                    <fpa:Comune>Milano</fpa:Comune>
+                    <fpa:Provincia>MI</fpa:Provincia>
+                    <fpa:Nazione>IT</fpa:Nazione>
+                </fpa:Sede>
+            </fpa:CessionarioCommittente>
+        </md:Extensions>
+        <md:Company>Digithera srl</md:Company>
+        <md:EmailAddress>info@digithera.it</md:EmailAddress>
+        <md:TelephoneNumber>+39256568224</md:TelephoneNumber>
+    </md:ContactPerson>
 </md:EntityDescriptor>
