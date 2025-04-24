@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" ?>
- <root>
-     <entity_id>https://entityID.unico/dell/SP</entity_id>
-     <file_name>isssss.xml</file_name>
-     <file_hash>06bdad0dd2812c5b37857b96e5ecc977367fd0a8c2129a0c275c8dc8f48</file_hash>
-     <code>xyz</code>
-     <aggregator_code></aggregator_code>
-     <signing_certificate_x509>MIIDdTCCAl2gAwIBAgIEb0G/9TANBgkqhkiG9w0BAQsFADBvMQswCQYDVQQGEwJJVDEL
+<EntityDescriptor entityID="your-unique-entity-id">
+    <IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" WantAuthnRequestsSigned="true">
+        <KeyDescriptor>
+            <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+                <X509Data>
+                    <X509Certificate>MIIDdTCCAl2gAwIBAgIEb0G/9TANBgkqhkiG9w0BAQsFADBvMQswCQYDVQQGEwJJVDEL
 MAkGA1UECAwCTkExEDAOBgNVBAcMB1JvbWU6MUEwCQYDVQQKDAJJVDEPMA0GA1UECwwG
 U1BfVGVhbTEgMB4GA1UEAwwXc3AuZXhhbXBsZS5pdCAtIFNTTCBDZXJ0MB4XDTI1MDQy
 MzA5MDAwMFoXDTI2MDQyMzA5MDAwMFowbzELMAkGA1UEBhMCSVQxCzAJBgNVBAgMAk5B
@@ -24,79 +22,41 @@ Q81QetDghwRZ0LxXbs7K9tzwn+UIxFHH5dU2Z6k/YOXAbzZWeTjfz1eNeFNU2uVmhKxU
 0cOd8EpHi+xIEOpRu6sQ+/C2tkOQ7sLbqvWr6gUdRMwU/jdwrOJZxPrj1QnP4OpkZsv8
 aOjQZnOPUpOQm7LuHFf3ihLG9E9vnlPtLSDA0lmFqfWRypkTuS6zNnhd9qYFpjP+xE+F
 IPwJh0VsyDZg8v4iZu8PL5xom7iN6QYI9OkF5JJ+a8A=
-</signing_certificate_x509>
-     <organization_name>Nome organizzazione</organization_name>
-     <organization_display_name>Display name</organization_display_name>
-     <organization_type>PA</organization_type>
-     <federation_type>SP</federation_type>
-     <single_logout_service>
-         <Binding>urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect</Binding>
-         <Location>https://authconc01.xyz.it/auth/realms/xyz-concorsi/broker/spidid/endpoint</Location>
-     </single_logout_service>
-     <single_logout_service>
-         <Binding>urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect</Binding>
-         <Location>https://authconc01.xyz.it/auth/realms/xyz-concorsi/broker/validatorid/endpoint</Location>
-     </single_logout_service>
-     <single_logout_service>
-         <Binding>urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect</Binding>
-         <Location>https://authconc01.xyz.it/auth/realms/xyz-concorsi/broker/arubaid/endpoint</Location>
-     </single_logout_service>
-     <assertion_consumer_service>
-         <index>0</index>
-         <isDefault>true</isDefault>
-         <Binding>urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST</Binding>
-         <Location>https://serviziweb2.xyz.it/spid/sp/AssertionConsumerService</Location>
-     </assertion_consumer_service>
-     <assertion_consumer_service>
-         <index>1</index>
-         <isDefault>false</isDefault>
-         <Binding>urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST</Binding>
-         <Location>https://authconc01.xyz.it/auth/realms/xyz-concorsi/broker/spidid/endpoint</Location>
-     </assertion_consumer_service>
-     <assertion_consumer_service>
-         <index>2</index>
-         <isDefault>false</isDefault>
-         <Binding>urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST</Binding>
-         <Location>https://authconc01.xyz.it/auth/realms/xyz-concorsi/broker/arubaid/endpoint</Location>
-     </assertion_consumer_service>
-     <attribute_consuming_service>
-         <index>0</index>
-         <ServiceName>Servizi xyz</ServiceName>
-         <ServiceDescription></ServiceDescription>
-         <RequestedAttribute>spidCode</RequestedAttribute>
-         <RequestedAttribute>fiscalNumber</RequestedAttribute>
-         <RequestedAttribute>familyName</RequestedAttribute>
-         <RequestedAttribute>name</RequestedAttribute>
-         <RequestedAttribute>gender</RequestedAttribute>
-         <RequestedAttribute>dateOfBirth</RequestedAttribute>
-         <RequestedAttribute>countyOfBirth</RequestedAttribute>
-         <RequestedAttribute>placeOfBirth</RequestedAttribute>
-         <RequestedAttribute>mobilePhone</RequestedAttribute>
-         <RequestedAttribute>email</RequestedAttribute>
-         <RequestedAttribute>digitalAddress</RequestedAttribute>
-     </attribute_consuming_service>
-     <attribute_consuming_service>
-         <index>1</index>
-         <ServiceName>Servizio Concorsi xyz</ServiceName>
-         <ServiceDescription>servizio concorsi xyz</ServiceDescription>
-         <RequestedAttribute>name</RequestedAttribute>
-         <RequestedAttribute>familyName</RequestedAttribute>
-         <RequestedAttribute>fiscalNumber</RequestedAttribute>
-         <RequestedAttribute>gender</RequestedAttribute>
-         <RequestedAttribute>placeOfBirth</RequestedAttribute>
-         <RequestedAttribute>countyOfBirth</RequestedAttribute>
-         <RequestedAttribute>dateOfBirth</RequestedAttribute>
-         <RequestedAttribute>digitalAddress</RequestedAttribute>
-         <RequestedAttribute>email</RequestedAttribute>
-     </attribute_consuming_service>
-     <eidas_ready>N</eidas_ready>
-     <create_date>2021-12-20 12:51:12</create_date>
-     <lastupdate_date>2021-12-20 12:51:12</lastupdate_date>
-     <delete_date></delete_date>
-     <_deleted>N</_deleted>
-     <_disabled>N</_disabled>
-     <registry_link>https://registry.spid.gov.it/entities/http%3A%2F%2Fwww.xyz.it</registry_link>
- </root>
-
-
-
+</X509Certificate>
+                </X509Data>
+            </KeyInfo>
+        </KeyDescriptor>
+        <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+        <SingleSignOnService Location="https://your-idp.com/sso" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"/>
+        <SingleSignOnService Location="https://your-idp.com/sso" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <SingleLogoutService Location="https://your-idp.com/logout" Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP"/>
+        <SingleLogoutService Location="https://your-idp.com/logout" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"/>
+        <SingleLogoutService Location="https://your-idp.com/logout" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" ResponseLocation="https://your-idp.com/logout-response"/>
+        <Attribute Name="attribute-name" xsi:type="attribute-type"/>
+    </IDPSSODescriptor>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+        </SignedInfo>
+        <SignatureValue>MIIDdTCCAl2gAwIBAgIEb0G/9TANBgkqhkiG9w0BAQsFADBvMQswCQYDVQQGEwJJVDEL
+MAkGA1UECAwCTkExEDAOBgNVBAcMB1JvbWU6MUEwCQYDVQQKDAJJVDEPMA0GA1UECwwG
+U1BfVGVhbTEgMB4GA1UEAwwXc3AuZXhhbXBsZS5pdCAtIFNTTCBDZXJ0MB4XDTI1MDQy
+MzA5MDAwMFoXDTI2MDQyMzA5MDAwMFowbzELMAkGA1UEBhMCSVQxCzAJBgNVBAgMAk5B
+MRAwDgYDVQQHDAdSb21lOjFBMQkGA1UECgwCSVQxDzANBgNVBAsMBlNQX1RlYW0xIDAe
+BgNVBAMMF3NwLmV4YW1wbGUuaXQgLSBTU0wgQ2VydDCCASIwDQYJKoZIhvcNAQEBBQAD
+ggEPADCCAQoCggEBAKXaYj5X8vGLghGgUOGq2oZgkNz2qp3nWcRhNH+YV7Kyo+O3i3hA
+G8vwr0gYQqkxTu3Z5XGuHhcqRnTOrGeTPJjV2KaSgkQScMCX1HxB+TLNvOETf0sXgXcg
+RO8sUu9c1dONURyqPkb9bb3a0QCS2uqZ0bDFFedcIb0Q9gf+uY3pLLjGbdb+YIvjMfXN
+J2aM2Z7IXaItmkUZ7wB9e5oy3VpIQ12WB4JDcfOl6b2yA6ONjUVj6rRZH8RfjJqHKCkC
+g9Z+fOBuFB+/ZPzXyzVgZyXj9VoNlsyXE2ujZCdoVnFNTFOabEAmBQx9yb92K0fWDr4H
+2BfnGRAeVRNskg6JpW/ThMg3HTkCAwEAAaNTMFEwHQYDVR0OBBYEFDcfclEZ94Qk9C8A
+t4k3N4hjRbimMB8GA1UdIwQYMBaAFDcfclEZ94Qk9C8At4k3N4hjRbimMA8GA1UdEwEB
+/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACT1QyN2mjFAoLM6Z3bQSnUIXgVKrNJD
+Q81QetDghwRZ0LxXbs7K9tzwn+UIxFHH5dU2Z6k/YOXAbzZWeTjfz1eNeFNU2uVmhKxU
+0ixYPpQqDNOXNSJK7BtMLvLdwGpUAvQKra9KwKZMTc2ek7Nh23T7SRKRSqozfEuF8I1W
+0cOd8EpHi+xIEOpRu6sQ+/C2tkOQ7sLbqvWr6gUdRMwU/jdwrOJZxPrj1QnP4OpkZsv8
+aOjQZnOPUpOQm7LuHFf3ihLG9E9vnlPtLSDA0lmFqfWRypkTuS6zNnhd9qYFpjP+xE+F
+IPwJh0VsyDZg8v4iZu8PL5xom7iN6QYI9OkF5JJ+a8A=</SignatureValue>
+    </Signature>
+</EntityDescriptor>
