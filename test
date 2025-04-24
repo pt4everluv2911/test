@@ -1,9 +1,9 @@
-<EntityDescriptor entityID="your-unique-entity-id">
+<EntityDescriptor entityID="example-entity-id" xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" WantAuthnRequestsSigned="true">
         <KeyDescriptor>
             <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
                 <X509Data>
-                    <X509Certificate>MIIDdTCCAl2gAwIBAgIEb0G/9TANBgkqhkiG9w0BAQsFADBvMQswCQYDVQQGEwJJVDEL
+                 <X509Certificate>MIIDdTCCAl2gAwIBAgIEb0G/9TANBgkqhkiG9w0BAQsFADBvMQswCQYDVQQGEwJJVDEL
 MAkGA1UECAwCTkExEDAOBgNVBAcMB1JvbWU6MUEwCQYDVQQKDAJJVDEPMA0GA1UECwwG
 U1BfVGVhbTEgMB4GA1UEAwwXc3AuZXhhbXBsZS5pdCAtIFNTTCBDZXJ0MB4XDTI1MDQy
 MzA5MDAwMFoXDTI2MDQyMzA5MDAwMFowbzELMAkGA1UEBhMCSVQxCzAJBgNVBAgMAk5B
@@ -32,7 +32,7 @@ IPwJh0VsyDZg8v4iZu8PL5xom7iN6QYI9OkF5JJ+a8A=
         <SingleLogoutService Location="https://your-idp.com/logout" Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP"/>
         <SingleLogoutService Location="https://your-idp.com/logout" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"/>
         <SingleLogoutService Location="https://your-idp.com/logout" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" ResponseLocation="https://your-idp.com/logout-response"/>
-        <Attribute Name="attribute-name" xsi:type="attribute-type"/>
+        <Attribute Name="SPID_attribute_name" xsi:type="SPID_attribute_type"/>
     </IDPSSODescriptor>
     <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
         <SignedInfo>
@@ -57,6 +57,7 @@ Q81QetDghwRZ0LxXbs7K9tzwn+UIxFHH5dU2Z6k/YOXAbzZWeTjfz1eNeFNU2uVmhKxU
 0ixYPpQqDNOXNSJK7BtMLvLdwGpUAvQKra9KwKZMTc2ek7Nh23T7SRKRSqozfEuF8I1W
 0cOd8EpHi+xIEOpRu6sQ+/C2tkOQ7sLbqvWr6gUdRMwU/jdwrOJZxPrj1QnP4OpkZsv8
 aOjQZnOPUpOQm7LuHFf3ihLG9E9vnlPtLSDA0lmFqfWRypkTuS6zNnhd9qYFpjP+xE+F
-IPwJh0VsyDZg8v4iZu8PL5xom7iN6QYI9OkF5JJ+a8A=</SignatureValue>
+IPwJh0VsyDZg8v4iZu8PL5xom7iN6QYI9OkF5JJ+a8A=
+</SignatureValue>
     </Signature>
 </EntityDescriptor>
