@@ -1,10 +1,13 @@
-<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
-                     xmlns:cie="https://www.cartaidentita.interno.gov.it/saml-extensions"
-                     xmlns:spid="https://spid.gov.it/saml-extensions"
+<md:EntityDescriptor
+	xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
+	xmlns:cie="https://www.cartaidentita.interno.gov.it/saml-extensions"
+	xmlns:spid="https://spid.gov.it/saml-extensions"
                      ID="_342411f0-564a-4f80-a5bd-8b8b4f773b67"
                      cacheDuration="P30DT0H0M0.000S"
-                     entityID="https://entityID.unico/dell/SP">
-	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                     entityID="https://entityID.unico/dell/SP"
+	xmlns:mdrpi="urn:oasis:names:tc:SAML:metadata:rpi">
+	<ds:Signature
+		xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
 		<ds:SignedInfo>
 			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 			<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
@@ -17,144 +20,42 @@
 				<ds:DigestValue>gABFlNNEvv+c+ZChCTXZXyVbKnJuKls7TRvizrp3eEc=</ds:DigestValue>
 			</ds:Reference>
 		</ds:SignedInfo>
-		<ds:SignatureValue>MIIDPjCCAiagAwIBAgIJAO6Z8fnqgTFlMA0GCSqGSIb3DQEBCwUAMIGRMQswCQYD
-VQQGEwJVUzELMAkGA1UECAwCTkMxEDAOBgNVBAcMB1JhbGVpZ2gxEzARBgNVBAoM
-Ck15IENvbXBhbnkxFDASBgNVBAsMC0lUIERlcGFydG1lbnQxHzAdBgNVBAMMFnlv
-dXItaWRwLmV4YW1wbGUuY29tMB4XDTI1MDQyNDEzMDgwM1oXDTI2MDQyNDEzMDgw
-M1owgZExCzAJBgNVBAYTAlVTMQswCQYDVQQIDAJOQzEQMA4GA1UEBwwHUmFsZWln
-aDETMBEGA1UECgwKTXkgQ29tcGFueTEUMBIGA1UECwwLSVQgRGVwYXJ0bWVudDEf
-MB0GA1UEAwwWeW91ci1pZHAuZXhhbXBsZS5jb20wggEiMA0GCSqGSIb3DQEBAQUA
-A4IBDwAwggEKAoIBAQCpsW3Dz2xWz7rOqTjEqXtVRKpCeP5/YlyFQbGllN5tM+8T
-vgHZ1jIPkkwGFiYkP5e0ZJXzMmFFJvuNo3ZKr9uFWEuqmMErKxPYmpSIBx4kaJ8Y
-r0lb5LkQoOwSwNx9Ug1r7UpiShF31UzZbznxdFkj3nIl7OPPMz7cJZovfjkI+4uM
-C0lf+b9rOxPscS1mUMvVP6ugEsybbE2HftAMQkGrjOgMxRPf8QrJIQjUCr+MpKYB
-alR81rmBNVZfqLPBbpFfwvZ6nkhjWSpe/4DDhFVu4Y/5GpXLcDfWvGiMT6tzNHmF
-q8tR5oXVGp6ZT6ULykMdYxAz66T1qR3BxavfU1bTAgMBAAGjUDBOMB0GA1UdDgQW
-BBQd6RBTqpTLdlrweG0r7uSFRc6LyzAfBgNVHSMEGDAWgBQd6RBTqpTLdlrweG0r
-7uSFRc6LyzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQC4u3oT+kYw
-s+r74gYFZ6f5uTQZUTACXwbLvPfObCKr9N0HYcEV9kF1YJ/WrV9qHvCWZrAQu0xA
-IQ0QlCUySzg4p8lbYNZDf4cyC2R8BBAGOrEq2pJGMb1rR/0LgA2W25UIyKXu5TgT
-xOkcMx8kWiEOpy4etXzXjGVLOZ8WkCKptqA4bGcyY2V7Op5mwhfP7Vmn3oI8yCeg
-uWHeW0g4Y4StH1zz6ya9AUht8qWoJIMlK4Ya8RbwUJ0bA8UzMjqZ9xTxkL+lNx0r
-qtb1XZBd9+G1ZdCulcUeY0SpIgIUeKQ0RExZYQZgIYbAhhF5P5e+OeVz+yb4edvw
-sBqsmFHEyHE5
-</ds:SignatureValue>
+		<ds:SignatureValue>jwLlxo4kePy9YyS/....CGgZPUD2LBZjn6B8uvC7cu/aezBSmQvGxAbzBSppQbr0M9kfSMfJ7hb5W3NSttMnP31kWW4PYEXn/Q5ME1N2v5+LjGTWCiXcjcPG+Q321+pMx9c2qRWrBy5AUfwUhQ96vK0mEqs8Jlxnlga6ySPLDJXQspasnZdEr6yJ4StP/Bd+XOMJYa1XkhwKUxOaVUoTJuEUn841kDOmvWhMp4uDpVpi6hQL3+UDggRfVl243gOBE8j69m6f93Qrlxg6/yhQTW3BuM59tph+mnYl920+51AU6iZUVPg==</ds:SignatureValue>
 		<ds:KeyInfo>
 			<ds:X509Data>
-				<ds:X509Certificate>MIIDPjCCAiagAwIBAgIJAO6Z8fnqgTFlMA0GCSqGSIb3DQEBCwUAMIGRMQswCQYD
-VQQGEwJVUzELMAkGA1UECAwCTkMxEDAOBgNVBAcMB1JhbGVpZ2gxEzARBgNVBAoM
-Ck15IENvbXBhbnkxFDASBgNVBAsMC0lUIERlcGFydG1lbnQxHzAdBgNVBAMMFnlv
-dXItaWRwLmV4YW1wbGUuY29tMB4XDTI1MDQyNDEzMDgwM1oXDTI2MDQyNDEzMDgw
-M1owgZExCzAJBgNVBAYTAlVTMQswCQYDVQQIDAJOQzEQMA4GA1UEBwwHUmFsZWln
-aDETMBEGA1UECgwKTXkgQ29tcGFueTEUMBIGA1UECwwLSVQgRGVwYXJ0bWVudDEf
-MB0GA1UEAwwWeW91ci1pZHAuZXhhbXBsZS5jb20wggEiMA0GCSqGSIb3DQEBAQUA
-A4IBDwAwggEKAoIBAQCpsW3Dz2xWz7rOqTjEqXtVRKpCeP5/YlyFQbGllN5tM+8T
-vgHZ1jIPkkwGFiYkP5e0ZJXzMmFFJvuNo3ZKr9uFWEuqmMErKxPYmpSIBx4kaJ8Y
-r0lb5LkQoOwSwNx9Ug1r7UpiShF31UzZbznxdFkj3nIl7OPPMz7cJZovfjkI+4uM
-C0lf+b9rOxPscS1mUMvVP6ugEsybbE2HftAMQkGrjOgMxRPf8QrJIQjUCr+MpKYB
-alR81rmBNVZfqLPBbpFfwvZ6nkhjWSpe/4DDhFVu4Y/5GpXLcDfWvGiMT6tzNHmF
-q8tR5oXVGp6ZT6ULykMdYxAz66T1qR3BxavfU1bTAgMBAAGjUDBOMB0GA1UdDgQW
-BBQd6RBTqpTLdlrweG0r7uSFRc6LyzAfBgNVHSMEGDAWgBQd6RBTqpTLdlrweG0r
-7uSFRc6LyzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQC4u3oT+kYw
-s+r74gYFZ6f5uTQZUTACXwbLvPfObCKr9N0HYcEV9kF1YJ/WrV9qHvCWZrAQu0xA
-IQ0QlCUySzg4p8lbYNZDf4cyC2R8BBAGOrEq2pJGMb1rR/0LgA2W25UIyKXu5TgT
-xOkcMx8kWiEOpy4etXzXjGVLOZ8WkCKptqA4bGcyY2V7Op5mwhfP7Vmn3oI8yCeg
-uWHeW0g4Y4StH1zz6ya9AUht8qWoJIMlK4Ya8RbwUJ0bA8UzMjqZ9xTxkL+lNx0r
-qtb1XZBd9+G1ZdCulcUeY0SpIgIUeKQ0RExZYQZgIYbAhhF5P5e+OeVz+yb4edvw
-sBqsmFHEyHE5
-</ds:X509Certificate>
+				<ds:X509Certificate>MIIG1DCCBLygAwIBAg..........t9k8uSEvYtB+8BGsROd</ds:X509Certificate>
 			</ds:X509Data>
 		</ds:KeyInfo>
 	</ds:Signature>
-    <Extensions>
-        <mdrpi:PublicationInfo publisher="registry-new.spid.gov.it" 
+	<Extensions>
+		<mdrpi:PublicationInfo publisher="registry-new.spid.gov.it" 
                                creationInstant="2024-11-11T16:05:50Z"/>
-    </Extensions>
+	</Extensions>
 	<md:SPSSODescriptor AuthnRequestsSigned="true"
 	                    WantAssertionsSigned="true"
 	                    protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
 		<md:KeyDescriptor use="signing">
-			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+			<ds:KeyInfo
+				xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
 				<ds:X509Data>
-					<ds:X509Certificate>MIIDPjCCAiagAwIBAgIJAO6Z8fnqgTFlMA0GCSqGSIb3DQEBCwUAMIGRMQswCQYD
-VQQGEwJVUzELMAkGA1UECAwCTkMxEDAOBgNVBAcMB1JhbGVpZ2gxEzARBgNVBAoM
-Ck15IENvbXBhbnkxFDASBgNVBAsMC0lUIERlcGFydG1lbnQxHzAdBgNVBAMMFnlv
-dXItaWRwLmV4YW1wbGUuY29tMB4XDTI1MDQyNDEzMDgwM1oXDTI2MDQyNDEzMDgw
-M1owgZExCzAJBgNVBAYTAlVTMQswCQYDVQQIDAJOQzEQMA4GA1UEBwwHUmFsZWln
-aDETMBEGA1UECgwKTXkgQ29tcGFueTEUMBIGA1UECwwLSVQgRGVwYXJ0bWVudDEf
-MB0GA1UEAwwWeW91ci1pZHAuZXhhbXBsZS5jb20wggEiMA0GCSqGSIb3DQEBAQUA
-A4IBDwAwggEKAoIBAQCpsW3Dz2xWz7rOqTjEqXtVRKpCeP5/YlyFQbGllN5tM+8T
-vgHZ1jIPkkwGFiYkP5e0ZJXzMmFFJvuNo3ZKr9uFWEuqmMErKxPYmpSIBx4kaJ8Y
-r0lb5LkQoOwSwNx9Ug1r7UpiShF31UzZbznxdFkj3nIl7OPPMz7cJZovfjkI+4uM
-C0lf+b9rOxPscS1mUMvVP6ugEsybbE2HftAMQkGrjOgMxRPf8QrJIQjUCr+MpKYB
-alR81rmBNVZfqLPBbpFfwvZ6nkhjWSpe/4DDhFVu4Y/5GpXLcDfWvGiMT6tzNHmF
-q8tR5oXVGp6ZT6ULykMdYxAz66T1qR3BxavfU1bTAgMBAAGjUDBOMB0GA1UdDgQW
-BBQd6RBTqpTLdlrweG0r7uSFRc6LyzAfBgNVHSMEGDAWgBQd6RBTqpTLdlrweG0r
-7uSFRc6LyzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQC4u3oT+kYw
-s+r74gYFZ6f5uTQZUTACXwbLvPfObCKr9N0HYcEV9kF1YJ/WrV9qHvCWZrAQu0xA
-IQ0QlCUySzg4p8lbYNZDf4cyC2R8BBAGOrEq2pJGMb1rR/0LgA2W25UIyKXu5TgT
-xOkcMx8kWiEOpy4etXzXjGVLOZ8WkCKptqA4bGcyY2V7Op5mwhfP7Vmn3oI8yCeg
-uWHeW0g4Y4StH1zz6ya9AUht8qWoJIMlK4Ya8RbwUJ0bA8UzMjqZ9xTxkL+lNx0r
-qtb1XZBd9+G1ZdCulcUeY0SpIgIUeKQ0RExZYQZgIYbAhhF5P5e+OeVz+yb4edvw
-sBqsmFHEyHE5
-</ds:X509Certificate>
+					<ds:X509Certificate>MIIGujCCBKKgAwIBAgIT.......eMrnSvcY0LXQ==</ds:X509Certificate>
 				</ds:X509Data>
 			</ds:KeyInfo>
 		</md:KeyDescriptor>
 		<md:KeyDescriptor use="signing">
-			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+			<ds:KeyInfo
+				xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
 				<ds:X509Data>
-					<ds:X509Certificate>MIIDPjCCAiagAwIBAgIJAO6Z8fnqgTFlMA0GCSqGSIb3DQEBCwUAMIGRMQswCQYD
-VQQGEwJVUzELMAkGA1UECAwCTkMxEDAOBgNVBAcMB1JhbGVpZ2gxEzARBgNVBAoM
-Ck15IENvbXBhbnkxFDASBgNVBAsMC0lUIERlcGFydG1lbnQxHzAdBgNVBAMMFnlv
-dXItaWRwLmV4YW1wbGUuY29tMB4XDTI1MDQyNDEzMDgwM1oXDTI2MDQyNDEzMDgw
-M1owgZExCzAJBgNVBAYTAlVTMQswCQYDVQQIDAJOQzEQMA4GA1UEBwwHUmFsZWln
-aDETMBEGA1UECgwKTXkgQ29tcGFueTEUMBIGA1UECwwLSVQgRGVwYXJ0bWVudDEf
-MB0GA1UEAwwWeW91ci1pZHAuZXhhbXBsZS5jb20wggEiMA0GCSqGSIb3DQEBAQUA
-A4IBDwAwggEKAoIBAQCpsW3Dz2xWz7rOqTjEqXtVRKpCeP5/YlyFQbGllN5tM+8T
-vgHZ1jIPkkwGFiYkP5e0ZJXzMmFFJvuNo3ZKr9uFWEuqmMErKxPYmpSIBx4kaJ8Y
-r0lb5LkQoOwSwNx9Ug1r7UpiShF31UzZbznxdFkj3nIl7OPPMz7cJZovfjkI+4uM
-C0lf+b9rOxPscS1mUMvVP6ugEsybbE2HftAMQkGrjOgMxRPf8QrJIQjUCr+MpKYB
-alR81rmBNVZfqLPBbpFfwvZ6nkhjWSpe/4DDhFVu4Y/5GpXLcDfWvGiMT6tzNHmF
-q8tR5oXVGp6ZT6ULykMdYxAz66T1qR3BxavfU1bTAgMBAAGjUDBOMB0GA1UdDgQW
-BBQd6RBTqpTLdlrweG0r7uSFRc6LyzAfBgNVHSMEGDAWgBQd6RBTqpTLdlrweG0r
-7uSFRc6LyzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQC4u3oT+kYw
-s+r74gYFZ6f5uTQZUTACXwbLvPfObCKr9N0HYcEV9kF1YJ/WrV9qHvCWZrAQu0xA
-IQ0QlCUySzg4p8lbYNZDf4cyC2R8BBAGOrEq2pJGMb1rR/0LgA2W25UIyKXu5TgT
-xOkcMx8kWiEOpy4etXzXjGVLOZ8WkCKptqA4bGcyY2V7Op5mwhfP7Vmn3oI8yCeg
-uWHeW0g4Y4StH1zz6ya9AUht8qWoJIMlK4Ya8RbwUJ0bA8UzMjqZ9xTxkL+lNx0r
-qtb1XZBd9+G1ZdCulcUeY0SpIgIUeKQ0RExZYQZgIYbAhhF5P5e+OeVz+yb4edvw
-sBqsmFHEyHE5
-</ds:X509Certificate>
+					<ds:X509Certificate>MIIG1DCCBLygAw............zt9k8uSEvYtB+8BGsROd</ds:X509Certificate>
 				</ds:X509Data>
 			</ds:KeyInfo>
 		</md:KeyDescriptor>
 		<md:KeyDescriptor use="signing">
-			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+			<ds:KeyInfo
+				xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
 				<ds:X509Data>
 					<ds:X509SubjectName>authconc01.abcde.it</ds:X509SubjectName>
-					<ds:X509Certificate>MIIDPjCCAiagAwIBAgIJAO6Z8fnqgTFlMA0GCSqGSIb3DQEBCwUAMIGRMQswCQYD
-VQQGEwJVUzELMAkGA1UECAwCTkMxEDAOBgNVBAcMB1JhbGVpZ2gxEzARBgNVBAoM
-Ck15IENvbXBhbnkxFDASBgNVBAsMC0lUIERlcGFydG1lbnQxHzAdBgNVBAMMFnlv
-dXItaWRwLmV4YW1wbGUuY29tMB4XDTI1MDQyNDEzMDgwM1oXDTI2MDQyNDEzMDgw
-M1owgZExCzAJBgNVBAYTAlVTMQswCQYDVQQIDAJOQzEQMA4GA1UEBwwHUmFsZWln
-aDETMBEGA1UECgwKTXkgQ29tcGFueTEUMBIGA1UECwwLSVQgRGVwYXJ0bWVudDEf
-MB0GA1UEAwwWeW91ci1pZHAuZXhhbXBsZS5jb20wggEiMA0GCSqGSIb3DQEBAQUA
-A4IBDwAwggEKAoIBAQCpsW3Dz2xWz7rOqTjEqXtVRKpCeP5/YlyFQbGllN5tM+8T
-vgHZ1jIPkkwGFiYkP5e0ZJXzMmFFJvuNo3ZKr9uFWEuqmMErKxPYmpSIBx4kaJ8Y
-r0lb5LkQoOwSwNx9Ug1r7UpiShF31UzZbznxdFkj3nIl7OPPMz7cJZovfjkI+4uM
-C0lf+b9rOxPscS1mUMvVP6ugEsybbE2HftAMQkGrjOgMxRPf8QrJIQjUCr+MpKYB
-alR81rmBNVZfqLPBbpFfwvZ6nkhjWSpe/4DDhFVu4Y/5GpXLcDfWvGiMT6tzNHmF
-q8tR5oXVGp6ZT6ULykMdYxAz66T1qR3BxavfU1bTAgMBAAGjUDBOMB0GA1UdDgQW
-BBQd6RBTqpTLdlrweG0r7uSFRc6LyzAfBgNVHSMEGDAWgBQd6RBTqpTLdlrweG0r
-7uSFRc6LyzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQC4u3oT+kYw
-s+r74gYFZ6f5uTQZUTACXwbLvPfObCKr9N0HYcEV9kF1YJ/WrV9qHvCWZrAQu0xA
-IQ0QlCUySzg4p8lbYNZDf4cyC2R8BBAGOrEq2pJGMb1rR/0LgA2W25UIyKXu5TgT
-xOkcMx8kWiEOpy4etXzXjGVLOZ8WkCKptqA4bGcyY2V7Op5mwhfP7Vmn3oI8yCeg
-uWHeW0g4Y4StH1zz6ya9AUht8qWoJIMlK4Ya8RbwUJ0bA8UzMjqZ9xTxkL+lNx0r
-qtb1XZBd9+G1ZdCulcUeY0SpIgIUeKQ0RExZYQZgIYbAhhF5P5e+OeVz+yb4edvw
-sBqsmFHEyHE5
-</ds:X509Certificate>
+					<ds:X509Certificate>MIIF6TCCA9GgAwI...........yAtA+5Tsu4Cz6DXY=</ds:X509Certificate>
 				</ds:X509Data>
 			</ds:KeyInfo>
 		</md:KeyDescriptor>
@@ -282,3 +183,5 @@ sBqsmFHEyHE5
 		<md:TelephoneNumber>+3906222222222</md:TelephoneNumber>
 	</md:ContactPerson>
 </md:EntityDescriptor>
+
+
