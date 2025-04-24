@@ -9,14 +9,14 @@
 
     <dsig:Signature>
         <dsig:SignedInfo>
-            <dsig:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
-            <dsig:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <dsig:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n"/>
+            <dsig:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-morersa-sha256"/>
             <dsig:Reference URI="#ID_96df8fefe151aa7c6a697834e8cc4621">
                 <dsig:Transforms>
-                    <dsig:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
-                    <dsig:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    <dsig:Transform Algorithm="http://www.w3.org/2000/09/xmldsigenveloped-signature"/>
+                    <dsig:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n"/>
                 </dsig:Transforms>
-                <dsig:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <dsig:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlencsha256"/>
                 <dsig:DigestValue>5/186l/TmQXa2iezNYA2T3K029zADd90frnGoJiXCss=</dsig:DigestValue>
             </dsig:Reference>
         </dsig:SignedInfo>
