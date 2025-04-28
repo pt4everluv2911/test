@@ -33,7 +33,6 @@ This XML file does not appear to have any style information associated with it. 
 <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
 <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://validator.spid.gov.it/samlsso"/>
 <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://validator.spid.gov.it/samlsso"/>
-</md:IDPSSODescriptor>
 <md:Organization>
 <md:OrganizationName xml:lang="en">Unfiedpost Group</md:OrganizationName>
 <md:OrganizationName xml:lang="it">Unfiedpost</md:OrganizationName>
@@ -42,4 +41,5 @@ This XML file does not appear to have any style information associated with it. 
 <md:OrganizationURL xml:lang="en">https://my.organization.url</md:OrganizationURL>
 <md:OrganizationURL xml:lang="it">https://my.organization.url</md:OrganizationURL>
 </md:Organization>
+</md:IDPSSODescriptor>
 </md:EntityDescriptor>
