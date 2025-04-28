@@ -34,4 +34,12 @@ This XML file does not appear to have any style information associated with it. 
 <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://validator.spid.gov.it/samlsso"/>
 <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://validator.spid.gov.it/samlsso"/>
 </md:IDPSSODescriptor>
+<md:Organization>
+<md:OrganizationName xml:lang="en">Unfiedpost Group</md:OrganizationName>
+<md:OrganizationName xml:lang="it">Unfiedpost</md:OrganizationName>
+<md:OrganizationDisplayName xml:lang="en">Unfiedpost Group</md:OrganizationDisplayName>
+<md:OrganizationDisplayName xml:lang="it">My organization display name</md:OrganizationDisplayName>
+<md:OrganizationURL xml:lang="en">https://my.organization.url</md:OrganizationURL>
+<md:OrganizationURL xml:lang="it">https://my.organization.url</md:OrganizationURL>
+</md:Organization>
 </md:EntityDescriptor>
