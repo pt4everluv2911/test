@@ -1,4 +1,4 @@
-<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="_e29b306eca46f079403275c1a8e717c178d1f36541" entityID="https://example.it">
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="_e29b306eca46f079403275c1a8e717c178d1f36541" entityID="https://example.it" aria-label=">
         <md:Organization aria-label="Source Sans Pro">
         <md:OrganizationName xml:lang="it">
             Denominazione Completa dell'Organizzazione s.r.l.
