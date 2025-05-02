@@ -1,10 +1,10 @@
 This XML file does not appear to have any style information associated with it. The document tree is shown below.
-<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" ID="ID_5413536a7c114566330065863e48c4a3" entityID="https://spid-demo.localtest.me:9443/demo">
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" ID="ID_1077c1c057d5d448a005e11f96a88096" entityID="https://iam.dev.digithera.it/">
 <dsig:Signature xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
 <dsig:SignedInfo>
 <dsig:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 <dsig:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
-<dsig:Reference URI="#ID_5413536a7c114566330065863e48c4a3">
+<dsig:Reference URI="#ID_1077c1c057d5d448a005e11f96a88096">
 <dsig:Transforms>
 <dsig:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
 <dsig:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
@@ -26,33 +26,55 @@ This XML file does not appear to have any style information associated with it. 
 <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
 <md:KeyDescriptor use="signing">
 <ds:KeyInfo>
-<ds:KeyName>jDRIxLyiIxD3xbgIAr7VLDobhb2TDxPAJRyKI1xxCvY</ds:KeyName>
+<ds:KeyName>pgGs4eW2fskzwT_ko7Xz2xRj-v0FEkmREfNGXhuOrms</ds:KeyName>
 <ds:X509Data>
 <ds:X509Certificate>MIIFiDCCA3ACCQCiEFhwurX0+jANBgkqhkiG9w0BAQsFADCBhTELMAkGA1UEBhMCTkwxHTAbBgNVBAgMFFV0cmVjaHQICAgICAgICAgICAgIMRAwDgYDVQQHDAdVdHJlY2h0MRQwEgYDVQQKDAtVbmlmaWVkcG9zdDEMMAoGA1UECwwDSUFNMSEwHwYDVQQDDBhpYW0udGVzdC51bmlmaWVkcG9zdC5jb20wHhcNMjIwMjI0MTQwMjM0WhcNMzIwMjIyMTQwMjM0WjCBhTELMAkGA1UEBhMCTkwxHTAbBgNVBAgMFFV0cmVjaHQICAgICAgICAgICAgIMRAwDgYDVQQHDAdVdHJlY2h0MRQwEgYDVQQKDAtVbmlmaWVkcG9zdDEMMAoGA1UECwwDSUFNMSEwHwYDVQQDDBhpYW0udGVzdC51bmlmaWVkcG9zdC5jb20wggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDNEXr+TnM/I2Ues4kxILy5woFmLOoc2L9DQlVGWO65kaYHU7PGqcy22fskMlN3WU0HsKBL5AGuI8i4XhSyB/w9SB7xRXM95qyZsHRvEZ8TnqdLn4CaugpgV4f9cxUK656Z8u3Geq87gVzEY213jNne9M5Mgh3w3ZGf55iLH8t5uMM8oSV5IlKookn/UESTdoXWLFTLvLKGXvkXr02pxe0bcIIvKCackkxAa8bqkGr26WAXuUywMPKTr2TS6RwK/NTVM/dbJBEfY3heG62K1Klp6oxIx+31OiOcb9y8JucLTFpWK4Xz8AmHJ/UcRcORIH+Y7MJLXgfAu/WDUNv+EucixqjaG3qyKOAl13td+FCog5msj7hSDzBhvNVVwB3qwcMIkQia2L0G0oAEWlsn+KDGrB3Ycs1apMAvMLmz3W+o3Y0tcW9PiHvUrxDdbrxLQp77Xf3W8lIanlgB6iW891NpfpiDF9xrWeqEYhOXeE9pszXjdtBNaHquBgVPgVKPxmKHqaW3/8yT92oZJ0IWJkDD78k/T/cqw60W04b+Qs5Wiunr1NiES/A0NGzl2WSCV+8U/tpt9XWmHIdPP+TnL5JFKscGorKenoiMEdzDecE581JW5fBNuQ1V0iDjUCJhvMpQ57iRhY6mqpLWlU2MIPCt+LC6REbvTX5PNpt0qmLzZwIDAQABMA0GCSqGSIb3DQEBCwUAA4ICAQApOQCe8Y1a0WlYzc2dMUFCJ5vEvxnW44ZOggxuibbULKi57PhwzKKW1iBIaLyx5QW9LhAcYZ7fLPAku/uyAWpRkvoWppHUNzd4OySsEQVcgknE2Y6X+DNEc1isIQwA+qSPQ12zW/4bP93xeewZ85tfvKW6aCvlG5n3imEahBP0Ymtbw84FpU3kYK7sBVnGm59GMl0zsK1lyJoEL87CbeibK5Q+wmS2Q28ewlqwOc9sGWNIlpXA9VVtuFPJcUW1ZsXd6nfDyr2ZSsEgJkpWvB0/c9Z5u5P9dsJiVlsQp1wN1DXU/jZnIhUdcNzkXLCf+lEPDAH7mqv+bfAsdqwA/r1ZkPB4PpSXmeZiKQkvP+TqcMgaijr65sIAy8czDMSj8ZkU1h5s6yf71PLQaJ2p4satMm3WP/XFGOA+sjFSOo1Lmg2rLZiOaSyB/GAhUxUXVC0aRxSV04/4zyduoQEGEYiqZsU7GQ3FpFVSiMqZsII9pdQZAZRkm167j7Uh0sJrP5YKRPDggpOAhnaNhMOFveP8SkyquUfbnp1NtZZOCK6z4LNfsmo2ILYYW7MOhO436wBKiTNtySWgJoCSBfFUUZERDSEe7ql+qcg2ayf4LCNbz0cG4tyI5RkzNlmn1MbQcexIcQ6qT7oW42xG9u6WUNWSEnxvS76RIZp43RZgeeYDpQ==</ds:X509Certificate>
 </ds:X509Data>
 </ds:KeyInfo>
 <md:EncryptionMethod Algorithm="RS256"/>
 </md:KeyDescriptor>
-<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://keycloak.localtest.me:8443/auth/realms/spid/broker/demo/endpoint"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-aruba/endpoint"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-etna/endpoint"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-infocert/endpoint"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-lepida/endpoint"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-namirial/endpoint"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-poste/endpoint"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-sielte/endpoint"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-spidregister/endpoint"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-teamsystem/endpoint"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-test/endpoint"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-tim/endpoint"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-validator/endpoint"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spiddemo/endpoint"/>
 <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
-<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://keycloak.localtest.me:8443/auth/realms/spid/broker/demo/endpoint" index="0" isDefault="true"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-aruba/endpoint" index="0" isDefault="true"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-etna/endpoint" index="1"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-infocert/endpoint" index="2"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-lepida/endpoint" index="3"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-namirial/endpoint" index="4"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-poste/endpoint" index="5"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-sielte/endpoint" index="6"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-spidregister/endpoint" index="7"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-teamsystem/endpoint" index="8"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-test/endpoint" index="9"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-tim/endpoint" index="10"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-validator/endpoint" index="11"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spiddemo/endpoint" index="12"/>
 <md:AttributeConsumingService index="1" isDefault="true">
-<md:ServiceName xml:lang="en">Unfiedpost IAM Service</md:ServiceName>
-<md:ServiceName xml:lang="it">Unfiedpost IAM Service</md:ServiceName>
-<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:ServiceName xml:lang="en">Online services</md:ServiceName>
+<md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
 <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
 </md:AttributeConsumingService>
 </md:SPSSODescriptor>
 <md:Organization>
-<md:OrganizationName xml:lang="en">Unfiedpost Group</md:OrganizationName>
-<md:OrganizationName xml:lang="it">Unfiedpost</md:OrganizationName>
-<md:OrganizationDisplayName xml:lang="en">Unfiedpost Group</md:OrganizationDisplayName>
-<md:OrganizationDisplayName xml:lang="it">My organization display name</md:OrganizationDisplayName>
-<md:OrganizationURL xml:lang="en">https://my.organization.url</md:OrganizationURL>
-<md:OrganizationURL xml:lang="it">https://my.organization.url</md:OrganizationURL>
+<md:OrganizationName xml:lang="en">Digithera srl</md:OrganizationName>
+<md:OrganizationName xml:lang="it">Digithera srl</md:OrganizationName>
+<md:OrganizationDisplayName xml:lang="en">Digithera</md:OrganizationDisplayName>
+<md:OrganizationDisplayName xml:lang="it">Digithera</md:OrganizationDisplayName>
+<md:OrganizationURL xml:lang="en">https://www.digithera.it</md:OrganizationURL>
+<md:OrganizationURL xml:lang="it">https://www.digithera.it</md:OrganizationURL>
 </md:Organization>
 <md:ContactPerson contactType="other">
 <md:Extensions>
@@ -62,7 +84,7 @@ This XML file does not appear to have any style information associated with it. 
 </md:Extensions>
 <md:Company>Digithera srl</md:Company>
 <md:EmailAddress>info@digithera.it</md:EmailAddress>
-<md:TelephoneNumber>+39256568224</md:TelephoneNumber>
+<md:TelephoneNumber>+390256568224</md:TelephoneNumber>
 </md:ContactPerson>
 <md:ContactPerson contactType="billing">
 <md:Extensions>
@@ -88,6 +110,6 @@ This XML file does not appear to have any style information associated with it. 
 </md:Extensions>
 <md:Company>Digithera srl</md:Company>
 <md:EmailAddress>info@digithera.it</md:EmailAddress>
-<md:TelephoneNumber>+39256568224</md:TelephoneNumber>
+<md:TelephoneNumber>+390256568224</md:TelephoneNumber>
 </md:ContactPerson>
 </md:EntityDescriptor>
