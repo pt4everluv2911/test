@@ -1,15 +1,12 @@
 <md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="_e29b306eca46f079403275c1a8e717c178d1f36541" entityID="https://example.it">
-        <md:Organization>
-        <md:OrganizationName xml:lang="it">
-            Denominazione Completa dell'Organizzazione s.r.l.
-        </md:OrganizationName>
-        <md:OrganizationDisplayName xml:lang="it">
-            Organizzazione
-        </md:OrganizationDisplayName>
-        <md:OrganizationURL xml:lang="it">
-            https://organizzazione.com/it
-        </md:OrganizationURL> 
-    </md:Organization>
+<md:Organization>
+<md:OrganizationName xml:lang="en">Unfiedpost Group</md:OrganizationName>
+<md:OrganizationName xml:lang="it">Unfiedpost</md:OrganizationName>
+<md:OrganizationDisplayName xml:lang="en">Unfiedpost Group</md:OrganizationDisplayName>
+<md:OrganizationDisplayName xml:lang="it">My organization display name</md:OrganizationDisplayName>
+<md:OrganizationURL xml:lang="en">https://my.organization.url</md:OrganizationURL>
+<md:OrganizationURL xml:lang="it">https://my.organization.url</md:OrganizationURL>
+</md:Organization>
 <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
 <ds:SignedInfo>
 <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
