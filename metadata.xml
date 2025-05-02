@@ -1,4 +1,51 @@
-<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="_e29b306eca46f079403275c1a8e717c178d1f36541" entityID="https://example.it">
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" ID="ID_5413536a7c114566330065863e48c4a3" entityID="https://spid-demo.localtest.me:9443/demo">
+<dsig:Signature xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+<dsig:SignedInfo>
+<dsig:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<dsig:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<dsig:Reference URI="#ID_5413536a7c114566330065863e48c4a3">
+<dsig:Transforms>
+<dsig:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<dsig:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</dsig:Transforms>
+<dsig:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<dsig:DigestValue>rVAODo8eYkdifE47nUzxPv8FDXZa1FdWxiztdqN0lUs=</dsig:DigestValue>
+</dsig:Reference>
+</dsig:SignedInfo>
+<dsig:SignatureValue>CXeznOMJTGwbdApBAjaXNoZ7bmVRncqmI56LF43QKrUiFPHT7cWtq6L4HZ1/W7xJOIuXiuxLb3WRL6QYSfK1TTXLAsfkLCtrNdw2S4JxlXSaRH01i3Gat/u1+gVa2N4WTUiCy0eaX+ViZZaeTKKS/iAY1a904nVy0QBK9/W+cuhKm3WY5/woRRb6YQg5f9Ny4WJNsp1oHn9x9VMUl54At8Ev1N2jfQ0Da19wsXTsfXpoiF6NlQDA8jJroVJdGHwUjP+qNgOQqcb1JoT9pCceQckF+bHVX93mjDVf7pHlTtoR8xd8ZPxlIPtNU9wP1wj8+DJ5LGHs5PukCxjq7m2PEXDZEhXV3XDP41kVP0tdYTvMO4bANDan1K1BpoCrv2BeVK3ipuKQK3jP/IUss7etyoTo/xQEV7TkWgeWMB5dP2yCM+Cy1M22Ymt2PcXMReuXFh8GsiXcUeHMjHDu0vJjWQwSMngL7QoflMvRwFHcmlapHcuieSyTLqFZ52JvDWI2BXbQT0ryNH8DusUmb+U2K8Bqr2cyn9zVIhXOSKvg8qjZxM28LecaCew+DtxrpEh02df5GGsDeLCohexN+bo+DiySwYGCWDB6tCaQP8e/qWTK6/38Lif+JyDGaayKbsW8YioUh4ctuSjnb3+m469+fcJ8b8+JZr5qplVkU3W5Kcg=</dsig:SignatureValue>
+<dsig:KeyInfo>
+<dsig:KeyValue>
+<dsig:RSAKeyValue>
+<dsig:Modulus>zRF6/k5zPyNlHrOJMSC8ucKBZizqHNi/Q0JVRljuuZGmB1OzxqnMttn7JDJTd1lNB7CgS+QBriPIuF4Usgf8PUge8UVzPeasmbB0bxGfE56nS5+AmroKYFeH/XMVCuuemfLtxnqvO4FcxGNtd4zZ3vTOTIId8N2Rn+eYix/LebjDPKEleSJSqKJJ/1BEk3aF1ixUy7yyhl75F69NqcXtG3CCLygmnJJMQGvG6pBq9ulgF7lMsDDyk69k0ukcCvzU1TP3WyQRH2N4XhutitSpaeqMSMft9TojnG/cvCbnC0xaViuF8/AJhyf1HEXDkSB/mOzCS14HwLv1g1Db/hLnIsao2ht6sijgJdd7XfhQqIOZrI+4Ug8wYbzVVcAd6sHDCJEImti9BtKABFpbJ/igxqwd2HLNWqTALzC5s91vqN2NLXFvT4h71K8Q3W68S0Ke+1391vJSGp5YAeolvPdTaX6Ygxfca1nqhGITl3hPabM143bQTWh6rgYFT4FSj8Zih6mlt//Mk/dqGSdCFiZAw+/JP0/3KsOtFtOG/kLOVorp69TYhEvwNDRs5dlkglfvFP7abfV1phyHTz/k5y+SRSrHBqKynp6IjBHcw3nBOfNSVuXwTbkNVdIg41AiYbzKUOe4kYWOpqqS1pVNjCDwrfiwukRG701+TzabdKpi82c=</dsig:Modulus>
+<dsig:Exponent>AQAB</dsig:Exponent>
+</dsig:RSAKeyValue>
+</dsig:KeyValue>
+</dsig:KeyInfo>
+</dsig:Signature>
+<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<md:KeyDescriptor use="signing">
+<ds:KeyInfo>
+<ds:KeyName>jDRIxLyiIxD3xbgIAr7VLDobhb2TDxPAJRyKI1xxCvY</ds:KeyName>
+<ds:X509Data>
+<ds:X509Certificate>MIIFiDCCA3ACCQCiEFhwurX0+jANBgkqhkiG9w0BAQsFADCBhTELMAkGA1UEBhMCTkwxHTAbBgNVBAgMFFV0cmVjaHQICAgICAgICAgICAgIMRAwDgYDVQQHDAdVdHJlY2h0MRQwEgYDVQQKDAtVbmlmaWVkcG9zdDEMMAoGA1UECwwDSUFNMSEwHwYDVQQDDBhpYW0udGVzdC51bmlmaWVkcG9zdC5jb20wHhcNMjIwMjI0MTQwMjM0WhcNMzIwMjIyMTQwMjM0WjCBhTELMAkGA1UEBhMCTkwxHTAbBgNVBAgMFFV0cmVjaHQICAgICAgICAgICAgIMRAwDgYDVQQHDAdVdHJlY2h0MRQwEgYDVQQKDAtVbmlmaWVkcG9zdDEMMAoGA1UECwwDSUFNMSEwHwYDVQQDDBhpYW0udGVzdC51bmlmaWVkcG9zdC5jb20wggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDNEXr+TnM/I2Ues4kxILy5woFmLOoc2L9DQlVGWO65kaYHU7PGqcy22fskMlN3WU0HsKBL5AGuI8i4XhSyB/w9SB7xRXM95qyZsHRvEZ8TnqdLn4CaugpgV4f9cxUK656Z8u3Geq87gVzEY213jNne9M5Mgh3w3ZGf55iLH8t5uMM8oSV5IlKookn/UESTdoXWLFTLvLKGXvkXr02pxe0bcIIvKCackkxAa8bqkGr26WAXuUywMPKTr2TS6RwK/NTVM/dbJBEfY3heG62K1Klp6oxIx+31OiOcb9y8JucLTFpWK4Xz8AmHJ/UcRcORIH+Y7MJLXgfAu/WDUNv+EucixqjaG3qyKOAl13td+FCog5msj7hSDzBhvNVVwB3qwcMIkQia2L0G0oAEWlsn+KDGrB3Ycs1apMAvMLmz3W+o3Y0tcW9PiHvUrxDdbrxLQp77Xf3W8lIanlgB6iW891NpfpiDF9xrWeqEYhOXeE9pszXjdtBNaHquBgVPgVKPxmKHqaW3/8yT92oZJ0IWJkDD78k/T/cqw60W04b+Qs5Wiunr1NiES/A0NGzl2WSCV+8U/tpt9XWmHIdPP+TnL5JFKscGorKenoiMEdzDecE581JW5fBNuQ1V0iDjUCJhvMpQ57iRhY6mqpLWlU2MIPCt+LC6REbvTX5PNpt0qmLzZwIDAQABMA0GCSqGSIb3DQEBCwUAA4ICAQApOQCe8Y1a0WlYzc2dMUFCJ5vEvxnW44ZOggxuibbULKi57PhwzKKW1iBIaLyx5QW9LhAcYZ7fLPAku/uyAWpRkvoWppHUNzd4OySsEQVcgknE2Y6X+DNEc1isIQwA+qSPQ12zW/4bP93xeewZ85tfvKW6aCvlG5n3imEahBP0Ymtbw84FpU3kYK7sBVnGm59GMl0zsK1lyJoEL87CbeibK5Q+wmS2Q28ewlqwOc9sGWNIlpXA9VVtuFPJcUW1ZsXd6nfDyr2ZSsEgJkpWvB0/c9Z5u5P9dsJiVlsQp1wN1DXU/jZnIhUdcNzkXLCf+lEPDAH7mqv+bfAsdqwA/r1ZkPB4PpSXmeZiKQkvP+TqcMgaijr65sIAy8czDMSj8ZkU1h5s6yf71PLQaJ2p4satMm3WP/XFGOA+sjFSOo1Lmg2rLZiOaSyB/GAhUxUXVC0aRxSV04/4zyduoQEGEYiqZsU7GQ3FpFVSiMqZsII9pdQZAZRkm167j7Uh0sJrP5YKRPDggpOAhnaNhMOFveP8SkyquUfbnp1NtZZOCK6z4LNfsmo2ILYYW7MOhO436wBKiTNtySWgJoCSBfFUUZERDSEe7ql+qcg2ayf4LCNbz0cG4tyI5RkzNlmn1MbQcexIcQ6qT7oW42xG9u6WUNWSEnxvS76RIZp43RZgeeYDpQ==</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+<md:EncryptionMethod Algorithm="RS256"/>
+</md:KeyDescriptor>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://keycloak.localtest.me:8443/auth/realms/spid/broker/demo/endpoint"/>
+<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://keycloak.localtest.me:8443/auth/realms/spid/broker/demo/endpoint" index="0" isDefault="true"/>
+<md:AttributeConsumingService index="1" isDefault="true">
+<md:ServiceName xml:lang="en">Unfiedpost IAM Service</md:ServiceName>
+<md:ServiceName xml:lang="it">Unfiedpost IAM Service</md:ServiceName>
+<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+</md:AttributeConsumingService>
+</md:SPSSODescriptor>
 <md:Organization>
 <md:OrganizationName xml:lang="en">Unfiedpost Group</md:OrganizationName>
 <md:OrganizationName xml:lang="it">Unfiedpost</md:OrganizationName>
@@ -7,30 +54,40 @@
 <md:OrganizationURL xml:lang="en">https://my.organization.url</md:OrganizationURL>
 <md:OrganizationURL xml:lang="it">https://my.organization.url</md:OrganizationURL>
 </md:Organization>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
-<ds:SignedInfo>
-<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
-<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
-<ds:Reference URI="#_e29b306eca46f079403275c1a8e717c178d1f3870c">
-<ds:Transforms>
-<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
-<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
-</ds:Transforms>
-<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-<ds:DigestValue>0b8TeQ/8WQJB6+nGxsmb9Ci7vdVIO3aiBDxup/VkH8I=</ds:DigestValue>
-</ds:Reference>
-</ds:SignedInfo>
-<ds:SignatureValue>f3aPv2GvxgS/MU3ZgzjBWsiqVlkoPNjTv4YwZjTL1mpnTUhyISkJ7+uz1ZqwSApWtd+iChe1rotuc0TcdASdxzvZbjiiRsNR/W9jeZWknwgjGdaJ7IeR8+IHXhiEU60F75H8OuKUhPEsGA09yoJx8/knPa8mdj8/4DqEvgWS3DaKYqDoUyCf0661y3SFiCSizpV/1+5OWr6BzQRgMqrVrEgAG2K+Zx2YYgojHU7X+F7aazeiGozUCtLz9t1gu8jpppJavHuBJ0asY4jx/ShI09yYXDzqAXrqe4XM+ujE5ZQlJkddVlno//f+iwY63dTdZVPcGB1FaZh4EP2jPSOCNg==</ds:SignatureValue>
-<ds:KeyInfo>
-<ds:X509Data>
-MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAySE3LpOSHG3AmgLpI7a3BnPXm4KvcUXgbLY8DDT0Ec9S0ofYW5bOH2+K2LNoP+9Qinp1C+DULPt2rnP01+CFxuuF6OVXyTXBzxVjM+ZVjoG4fm9Lx4LCuyQr9huL2AwC+jQlmZhFNCzNdvOdfvGmrY0uiUlrdBugsE+x2n0ntrNalcHLnPLJsggwe7j+mXgN7yemFmLIiFmmDTWyAOBj/eSJBJ/I/AdCcfPeIFToFCtFu4yesqQSKtrKS2iRpITYVs2r/fPPAebtIa/DFXNfw2fglVJpk7rbDQkKLtinBE6rlGXeKzp6AcuiWxuaW40VXRGlNuMj+H9JnCCzumiYaQIDAQAB</ds:X509Data>
-</ds:KeyInfo>
-</ds:Signature>
-<md:IDPSSODescriptor WantAuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
-<md:KeyDescriptor use="signing">
-<ds:KeyInfo>
-<ds:X509Data>
-<ds:X509Certificate>MIIH9DCCBdygAwIBAgIIR+70J1eKK6AwDQYJKoZIhvcNAQENBQAwgcwxCzAJBgNVBAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEwMC4GA1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBwcm9nZXR0byBTUElEMQ0wCwYDVQQDDARBZ0lEMSkwJwYJKoZIhvcNAQkBFhpwcm90b2NvbGxvQHBlYy5hZ2lkLmdvdi5pdDEaMBgGA1UEBRMRVkFUSVQtOTc3MzUwMjA1ODQwHhcNMjUwMzEyMDAwMDAwWhcNMzUwMzExMjM1OTU5WjCBljELMAkGA1UEBhMCSVQxCzAJBgNVBAgMAlJNMQ0wCwYDVQQHDARSb21hMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEYMBYGA1UECwwPU1BJRF9TQU1MX0NIRUNLMQ0wCwYDVQQDDARBZ0lEMRowGAYDVQRhDBFWQVRJVC05NzczNTAyMDU4NDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANLG3kxLZuYVjK9EG3vvOI3ml0Wdfg7RwHQ0iyxkicG+59Z2jwwFh1GDlNZB+UrsFRhVax0A0hVzuJwclhFW52Z6pEMwbEzBczyKheD2p9NPLWVE6hotlk9/3K0hSe16nDRuUuvMFjZ+z4c+InzOfHaT7N4SeU1ggRePJnXcnN5Wx4Yh4YIpj1AaqRvmuNNk32yCWOocmL1Zy8vYQsFsmKIE/qM8AoCivnZ63KE/1EqBbvw5IKZKY4bnk9WOlJgVXugrL5PBagZa6Wjq1MMTEsPCBdrK4rHDmfwPkN/LEWv9+zNwcLpublx32qd+s7tqcT1MasGCFBsIR4x2M5GVt40CAwEAAaOCAwwwggMIMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFBtHlqcwtn61Aq4dlmnecOCzUMsWMB8GA1UdIwQYMBaAFJ/HW2wlpqebg16m+8H+o3k7zY+RMA4GA1UdDwEB/wQEAwIGwDARBgNVHREECjAIggZpZHAuaXQwFgYDVR0SBA8wDYILc3BpZC5nb3YuaXQwPwYDVR0fBDgwNjA0oDKgMIYuaHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfSWRQLmNybDBqBggrBgEFBQcBAQReMFwwRAYIKwYBBQUHMAKGOGh0dHA6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jZXJ0aWZpY2F0aS9TdWJfQ0FfU1BJRF9JZFAuY2VyMBQGCCsGAQUFBzABhghodHRwczovLzCCAc4GA1UdIASCAcUwggHBMAkGBwQAjkYBBgIwgZUGBCtMEAYwgYwwRAYIKwYBBQUHAgIwOBo2RWxlY3Ryb25pYyBjZXJ0aWZpY2F0ZSBjb25mb3JtaW5nIHdpdGggQUdJRCBHdWlkZWxpbmVzMEQGCCsGAQUFBwICMDgaNkNlcnRpZmljYXRvIGVsZXR0cm9uaWNvIGNvbmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEgQWdJRDByBgYrTBAEAQIwaDA5BggrBgEFBQcCAjAtGitTUElEOiBnZXN0b3JlIGRlbGxlIGlkZW50aXTgIGRpZ2l0YWxpIChJZFApMCsGCCsGAQUFBwICMB8aHVNQSUQ6IElkZW50aXR5IFByb3ZpZGVyIChJZFApMAgGBgQAj3oBAzBNBgQrTBAEMEUwQwYIKwYBBQUHAgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0FnSURfZUlEQVNfcm9vdENBX2Nwcy5wZGYwTwYGBACORgEFMEUwQwYIKwYBBQUHAgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0FnSURfZUlEQVNfcm9vdENBX2Nwcy5wZGYwDQYJKoZIhvcNAQENBQADggIBAE4Wn8MX1ElEYzvVGInU4pwkqnije5Laej4WbA52JhIGxaF5eQEWGYSBaLYCVvnh1luIvWVFZsD97ja7s5HxeQpM18ZsGNVinOUxYW1SLvYtNhAgMpptfshIl4ZVzyZN1AvVhtZwSDX9ttTfVuaBO1oFifqxptB3Optn7i+y9V6lxBeB8TMvigp1RKcM+tQ3N59aH/ohTMr71IFZAeLkBR0g8YpL9Ec/pTzydY80A8XsxXpzdBPL1eLLJeNtlG8vCk2T8UkBtpto48f67ovrR8Nhlso0YVz0b8d+LOe5unWKNHznKzb8CwLGo9cyF+xhxX6sEfRBrpVbFn9A3Kl7mqK+LjBCna9nTVBPo0oH1LyiREbaJHYSDIH8e6B4xnGfagYrgUcGs7uN6EE7ZT78QR5RnH20rTszgcuOPqBKo8fxFkmScw5OHohZoQoU2rh8WxoNlcgo3rR0Xa2dsNAvhscMHzEObECuYqSDNNtG5BrhEl9U6dnjAbhIdBmlPsjgQfDDcog6kNDtdeCYlOm0iF0eF10uMfP/Ry9TdqjfcfuOFgJ0WsoJJxW4qgT4bRgrPrL9e2A/4k8hraKXw2BWg1LlE3tV52J1uot9cJJf3Q7lWm2Ip7jmUGuXiHxXtoZJ2Q1cS5DWamtNAzpUXwesihsBXRL+86NJNzcPYuGT+woe</ds:X509Certificate>
-</ds:X509Data>
-</ds:KeyInfo>
+<md:ContactPerson contactType="other">
+<md:Extensions>
+<spid:VATNumber xmlns:spid="https://spid.gov.it/saml-extensions">IT08567210961</spid:VATNumber>
+<spid:FiscalCode xmlns:spid="https://spid.gov.it/saml-extensions">08567210961</spid:FiscalCode>
+<spid:Private xmlns:spid="https://spid.gov.it/saml-extensions"/>
+</md:Extensions>
+<md:Company>Digithera srl</md:Company>
+<md:EmailAddress>info@digithera.it</md:EmailAddress>
+<md:TelephoneNumber>+39256568224</md:TelephoneNumber>
+</md:ContactPerson>
+<md:ContactPerson contactType="billing">
+<md:Extensions>
+<fpa:CessionarioCommittente xmlns:fpa="https://spid.gov.it/invoicing-extensions">
+<fpa:DatiAnagrafici>
+<fpa:IdFiscaleIVA>
+<fpa:IdPaese>IT</fpa:IdPaese>
+<fpa:IdCodice>08567210961</fpa:IdCodice>
+</fpa:IdFiscaleIVA>
+<fpa:Anagrafica>
+<fpa:Denominazione>Digithera srl</fpa:Denominazione>
+</fpa:Anagrafica>
+</fpa:DatiAnagrafici>
+<fpa:Sede>
+<fpa:Indirizzo>Via Paleocapa</fpa:Indirizzo>
+<fpa:NumeroCivico>1</fpa:NumeroCivico>
+<fpa:CAP>20121</fpa:CAP>
+<fpa:Comune>Milano</fpa:Comune>
+<fpa:Provincia>MI</fpa:Provincia>
+<fpa:Nazione>it</fpa:Nazione>
+</fpa:Sede>
+</fpa:CessionarioCommittente>
+</md:Extensions>
+<md:Company>Digithera srl</md:Company>
+<md:EmailAddress>info@digithera.it</md:EmailAddress>
+<md:TelephoneNumber>+39256568224</md:TelephoneNumber>
+</md:ContactPerson>
 </md:EntityDescriptor>
