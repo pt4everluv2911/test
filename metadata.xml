@@ -1,19 +1,18 @@
-This XML file does not appear to have any style information associated with it. The document tree is shown below.
-<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" ID="ID_1077c1c057d5d448a005e11f96a88096" entityID="https://iam.dev.digithera.it/">
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" ID="ID_704e3981735c99cb82f7a9cd2bdaef4a" entityID="https://iam.uat.digithera.it/">
 <dsig:Signature xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
 <dsig:SignedInfo>
 <dsig:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 <dsig:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
-<dsig:Reference URI="#ID_1077c1c057d5d448a005e11f96a88096">
+<dsig:Reference URI="#ID_704e3981735c99cb82f7a9cd2bdaef4a">
 <dsig:Transforms>
 <dsig:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
 <dsig:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 </dsig:Transforms>
 <dsig:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-<dsig:DigestValue>rVAODo8eYkdifE47nUzxPv8FDXZa1FdWxiztdqN0lUs=</dsig:DigestValue>
+<dsig:DigestValue>tv8hThxNQ1G8DuiX/oW85Y9cvJiJWdx2G1Y9NNRoK84=</dsig:DigestValue>
 </dsig:Reference>
 </dsig:SignedInfo>
-<dsig:SignatureValue>CXeznOMJTGwbdApBAjaXNoZ7bmVRncqmI56LF43QKrUiFPHT7cWtq6L4HZ1/W7xJOIuXiuxLb3WRL6QYSfK1TTXLAsfkLCtrNdw2S4JxlXSaRH01i3Gat/u1+gVa2N4WTUiCy0eaX+ViZZaeTKKS/iAY1a904nVy0QBK9/W+cuhKm3WY5/woRRb6YQg5f9Ny4WJNsp1oHn9x9VMUl54At8Ev1N2jfQ0Da19wsXTsfXpoiF6NlQDA8jJroVJdGHwUjP+qNgOQqcb1JoT9pCceQckF+bHVX93mjDVf7pHlTtoR8xd8ZPxlIPtNU9wP1wj8+DJ5LGHs5PukCxjq7m2PEXDZEhXV3XDP41kVP0tdYTvMO4bANDan1K1BpoCrv2BeVK3ipuKQK3jP/IUss7etyoTo/xQEV7TkWgeWMB5dP2yCM+Cy1M22Ymt2PcXMReuXFh8GsiXcUeHMjHDu0vJjWQwSMngL7QoflMvRwFHcmlapHcuieSyTLqFZ52JvDWI2BXbQT0ryNH8DusUmb+U2K8Bqr2cyn9zVIhXOSKvg8qjZxM28LecaCew+DtxrpEh02df5GGsDeLCohexN+bo+DiySwYGCWDB6tCaQP8e/qWTK6/38Lif+JyDGaayKbsW8YioUh4ctuSjnb3+m469+fcJ8b8+JZr5qplVkU3W5Kcg=</dsig:SignatureValue>
+<dsig:SignatureValue>vlrjCkJND/t3M5b24AS3tJj4QJ+9XAuZEZdjxFKfznpMTyP9UqMSmIAQWKuS6jSmqrF5SrsQxSxWrueZfMw52Mg3m3WBbiOaDwFtkOJhOVB8PuHBQrh8eVA82AT4nPTowJaR0wfqrqH9sLpzterMjWMWf+DthS3cDmLCp5x/7wuaduD0e8c091V+utSEyfsDoYCUZV4dqmFToIMrKu61hOIsk72s2j3Tg2SWTn+GH51Q4fzLMJeCySi9iQDXeoTU5z2F6xPkdYluA2y0WUMgYaW8h0MXGwX+QmAzKaBSV7eLj/J0l/AHNmSrX8KbtdabyNd3X0iTb09RSCd070WXtp9xy0y2FXJwHcehztDbXqFlSk+gWk/8ay9PgK/jJbHyYtXoAAQ9bV+W+ERCSDs46YymDRT04mWmQgVkcJTxipIyz4a9lPf/lGPYK+B/w8cTA7xycinz9WybbJgn0B9y5Ebq/6vaFAwqUxUXa/WuhV1YM93T9y0Zq1Ob0wgAloaWX8k8MeJ2Iq+Po/KTqOATclBo9R8/RlswZxqjtob4IBgNXSsL+8Ai0EttQlKjEUldjFpBKQN/n7sKxokLXLCcf7uwBv8QkgagvDPbFEoIlsryhpMAOCprVIXt4KNLhBKIhFGbWD4n2TfRVKhJlVIuqMoMq23eHfW/2wrm51B3IPE=</dsig:SignatureValue>
 <dsig:KeyInfo>
 <dsig:KeyValue>
 <dsig:RSAKeyValue>
@@ -33,39 +32,37 @@ This XML file does not appear to have any style information associated with it. 
 </ds:KeyInfo>
 <md:EncryptionMethod Algorithm="RS256"/>
 </md:KeyDescriptor>
-<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-aruba/endpoint"/>
-<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-etna/endpoint"/>
-<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-infocert/endpoint"/>
-<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-lepida/endpoint"/>
-<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-namirial/endpoint"/>
-<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-poste/endpoint"/>
-<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-sielte/endpoint"/>
-<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-spidregister/endpoint"/>
-<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-teamsystem/endpoint"/>
-<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-test/endpoint"/>
-<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-tim/endpoint"/>
-<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-validator/endpoint"/>
-<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spiddemo/endpoint"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.uat.unifiedpost.com/auth/realms/pp-iam-italy-spid/broker/spid-aruba/endpoint"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.uat.unifiedpost.com/auth/realms/pp-iam-italy-spid/broker/spid-etna/endpoint"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.uat.unifiedpost.com/auth/realms/pp-iam-italy-spid/broker/spid-infocert/endpoint"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.uat.unifiedpost.com/auth/realms/pp-iam-italy-spid/broker/spid-lepida/endpoint"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.uat.unifiedpost.com/auth/realms/pp-iam-italy-spid/broker/spid-namirial/endpoint"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.uat.unifiedpost.com/auth/realms/pp-iam-italy-spid/broker/spid-poste/endpoint"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.uat.unifiedpost.com/auth/realms/pp-iam-italy-spid/broker/spid-sielte/endpoint"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.uat.unifiedpost.com/auth/realms/pp-iam-italy-spid/broker/spid-spidregister/endpoint"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.uat.unifiedpost.com/auth/realms/pp-iam-italy-spid/broker/spid-teamsystem/endpoint"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.uat.unifiedpost.com/auth/realms/pp-iam-italy-spid/broker/spid-tim/endpoint"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.uat.unifiedpost.com/auth/realms/pp-iam-italy-spid/broker/spid-validator/endpoint"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.uat.unifiedpost.com/auth/realms/pp-iam-italy-spid/broker/spiddemo/endpoint"/>
 <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
-<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-aruba/endpoint" index="0" isDefault="true"/>
-<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-etna/endpoint" index="1"/>
-<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-infocert/endpoint" index="2"/>
-<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-lepida/endpoint" index="3"/>
-<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-namirial/endpoint" index="4"/>
-<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-poste/endpoint" index="5"/>
-<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-sielte/endpoint" index="6"/>
-<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-spidregister/endpoint" index="7"/>
-<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-teamsystem/endpoint" index="8"/>
-<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-test/endpoint" index="9"/>
-<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-tim/endpoint" index="10"/>
-<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spid-validator/endpoint" index="11"/>
-<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.dev.unifiedpost.com/auth/realms/dev-iam-italy-spid/broker/spiddemo/endpoint" index="12"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.uat.unifiedpost.com/auth/realms/pp-iam-italy-spid/broker/spid-aruba/endpoint" index="0" isDefault="true"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.uat.unifiedpost.com/auth/realms/pp-iam-italy-spid/broker/spid-etna/endpoint" index="1"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.uat.unifiedpost.com/auth/realms/pp-iam-italy-spid/broker/spid-infocert/endpoint" index="2"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.uat.unifiedpost.com/auth/realms/pp-iam-italy-spid/broker/spid-lepida/endpoint" index="3"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.uat.unifiedpost.com/auth/realms/pp-iam-italy-spid/broker/spid-namirial/endpoint" index="4"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.uat.unifiedpost.com/auth/realms/pp-iam-italy-spid/broker/spid-poste/endpoint" index="5"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.uat.unifiedpost.com/auth/realms/pp-iam-italy-spid/broker/spid-sielte/endpoint" index="6"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.uat.unifiedpost.com/auth/realms/pp-iam-italy-spid/broker/spid-spidregister/endpoint" index="7"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.uat.unifiedpost.com/auth/realms/pp-iam-italy-spid/broker/spid-teamsystem/endpoint" index="8"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.uat.unifiedpost.com/auth/realms/pp-iam-italy-spid/broker/spid-tim/endpoint" index="9"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.uat.unifiedpost.com/auth/realms/pp-iam-italy-spid/broker/spid-validator/endpoint" index="10"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.uat.unifiedpost.com/auth/realms/pp-iam-italy-spid/broker/spiddemo/endpoint" index="11"/>
 <md:AttributeConsumingService index="1" isDefault="true">
 <md:ServiceName xml:lang="en">Online services</md:ServiceName>
 <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
-<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
 <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
 </md:AttributeConsumingService>
 </md:SPSSODescriptor>
 <md:Organization>
